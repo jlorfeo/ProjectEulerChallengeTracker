@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286F024E24279E310044DBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F024D24279E310044DBEB /* AppDelegate.swift */; };
+		286F025024279E310044DBEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F024F24279E310044DBEB /* SceneDelegate.swift */; };
+		286F025224279E310044DBEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F025124279E310044DBEB /* ContentView.swift */; };
+		286F025424279E340044DBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286F025324279E340044DBEB /* Assets.xcassets */; };
+		286F025724279E340044DBEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 286F025624279E340044DBEB /* Preview Assets.xcassets */; };
+		286F025A24279E340044DBEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 286F025824279E340044DBEB /* LaunchScreen.storyboard */; };
+		286F026524279E340044DBEB /* ProjectEuler100NEWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F026424279E340044DBEB /* ProjectEuler100NEWTests.swift */; };
+		286F027124279E5A0044DBEB /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027024279E5A0044DBEB /* AppView.swift */; };
+		286F027324279E800044DBEB /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027224279E800044DBEB /* ChallengeView.swift */; };
+		286F027524279E900044DBEB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027424279E900044DBEB /* SettingsView.swift */; };
+		286F027824279FE70044DBEB /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027724279FE70044DBEB /* Challenge.swift */; };
+		286F027B2427A11D0044DBEB /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027A2427A11D0044DBEB /* GlobalState.swift */; };
+		286F027E2427A2EF0044DBEB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F027D2427A2EF0044DBEB /* Util.swift */; };
+		286F02802427A4FB0044DBEB /* initialChallenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 286F027F2427A4FB0044DBEB /* initialChallenges.json */; };
+		286F02822427A9880044DBEB /* ChallengeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F02812427A9880044DBEB /* ChallengeRow.swift */; };
+		286F02852427B8F40044DBEB /* ChallengeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F02842427B8F40044DBEB /* ChallengeDetail.swift */; };
+		286F02872427B9780044DBEB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F02862427B9780044DBEB /* WebView.swift */; };
+		286F02892427BF220044DBEB /* ChallengeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286F02882427BF220044DBEB /* ChallengeList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		286F026124279E340044DBEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 286F024224279E310044DBEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 286F024924279E310044DBEB;
+			remoteInfo = ProjectEuler100NEW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		286F024A24279E310044DBEB /* ProjectEuler100NEW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEuler100NEW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		286F024D24279E310044DBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		286F024F24279E310044DBEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		286F025124279E310044DBEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		286F025324279E340044DBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		286F025624279E340044DBEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		286F025924279E340044DBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		286F025B24279E340044DBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286F026024279E340044DBEB /* ProjectEuler100NEWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectEuler100NEWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		286F026424279E340044DBEB /* ProjectEuler100NEWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectEuler100NEWTests.swift; sourceTree = "<group>"; };
+		286F026624279E340044DBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286F027024279E5A0044DBEB /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		286F027224279E800044DBEB /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		286F027424279E900044DBEB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		286F027724279FE70044DBEB /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		286F027A2427A11D0044DBEB /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
+		286F027D2427A2EF0044DBEB /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		286F027F2427A4FB0044DBEB /* initialChallenges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = initialChallenges.json; sourceTree = "<group>"; };
+		286F02812427A9880044DBEB /* ChallengeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeRow.swift; sourceTree = "<group>"; };
+		286F02842427B8F40044DBEB /* ChallengeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetail.swift; sourceTree = "<group>"; };
+		286F02862427B9780044DBEB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		286F02882427BF220044DBEB /* ChallengeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286F024724279E310044DBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286F025D24279E340044DBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286F024124279E310044DBEB = {
+			isa = PBXGroup;
+			children = (
+				286F024C24279E310044DBEB /* ProjectEuler100NEW */,
+				286F026324279E340044DBEB /* ProjectEuler100NEWTests */,
+				286F024B24279E310044DBEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286F024B24279E310044DBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286F024A24279E310044DBEB /* ProjectEuler100NEW.app */,
+				286F026024279E340044DBEB /* ProjectEuler100NEWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286F024C24279E310044DBEB /* ProjectEuler100NEW */ = {
+			isa = PBXGroup;
+			children = (
+				286F027C2427A2E00044DBEB /* Util */,
+				286F02792427A10D0044DBEB /* State */,
+				286F027624279FB70044DBEB /* Model */,
+				286F026F24279E450044DBEB /* Views */,
+				286F024D24279E310044DBEB /* AppDelegate.swift */,
+				286F024F24279E310044DBEB /* SceneDelegate.swift */,
+				286F025124279E310044DBEB /* ContentView.swift */,
+				286F025324279E340044DBEB /* Assets.xcassets */,
+				286F025824279E340044DBEB /* LaunchScreen.storyboard */,
+				286F025B24279E340044DBEB /* Info.plist */,
+				286F025524279E340044DBEB /* Preview Content */,
+			);
+			path = ProjectEuler100NEW;
+			sourceTree = "<group>";
+		};
+		286F025524279E340044DBEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				286F025624279E340044DBEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		286F026324279E340044DBEB /* ProjectEuler100NEWTests */ = {
+			isa = PBXGroup;
+			children = (
+				286F026424279E340044DBEB /* ProjectEuler100NEWTests.swift */,
+				286F026624279E340044DBEB /* Info.plist */,
+			);
+			path = ProjectEuler100NEWTests;
+			sourceTree = "<group>";
+		};
+		286F026F24279E450044DBEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				286F02832427B8DA0044DBEB /* Challenge */,
+				286F027024279E5A0044DBEB /* AppView.swift */,
+				286F027424279E900044DBEB /* SettingsView.swift */,
+				286F02862427B9780044DBEB /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		286F027624279FB70044DBEB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				286F027724279FE70044DBEB /* Challenge.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		286F02792427A10D0044DBEB /* State */ = {
+			isa = PBXGroup;
+			children = (
+				286F027A2427A11D0044DBEB /* GlobalState.swift */,
+				286F027F2427A4FB0044DBEB /* initialChallenges.json */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		286F027C2427A2E00044DBEB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				286F027D2427A2EF0044DBEB /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		286F02832427B8DA0044DBEB /* Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				286F027224279E800044DBEB /* ChallengeView.swift */,
+				286F02882427BF220044DBEB /* ChallengeList.swift */,
+				286F02812427A9880044DBEB /* ChallengeRow.swift */,
+				286F02842427B8F40044DBEB /* ChallengeDetail.swift */,
+			);
+			path = Challenge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286F024924279E310044DBEB /* ProjectEuler100NEW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286F026924279E340044DBEB /* Build configuration list for PBXNativeTarget "ProjectEuler100NEW" */;
+			buildPhases = (
+				286F024624279E310044DBEB /* Sources */,
+				286F024724279E310044DBEB /* Frameworks */,
+				286F024824279E310044DBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler100NEW;
+			productName = ProjectEuler100NEW;
+			productReference = 286F024A24279E310044DBEB /* ProjectEuler100NEW.app */;
+			productType = "com.apple.product-type.application";
+		};
+		286F025F24279E340044DBEB /* ProjectEuler100NEWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286F026C24279E340044DBEB /* Build configuration list for PBXNativeTarget "ProjectEuler100NEWTests" */;
+			buildPhases = (
+				286F025C24279E340044DBEB /* Sources */,
+				286F025D24279E340044DBEB /* Frameworks */,
+				286F025E24279E340044DBEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				286F026224279E340044DBEB /* PBXTargetDependency */,
+			);
+			name = ProjectEuler100NEWTests;
+			productName = ProjectEuler100NEWTests;
+			productReference = 286F026024279E340044DBEB /* ProjectEuler100NEWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286F024224279E310044DBEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = jel;
+				TargetAttributes = {
+					286F024924279E310044DBEB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					286F025F24279E340044DBEB = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 286F024924279E310044DBEB;
+					};
+				};
+			};
+			buildConfigurationList = 286F024524279E310044DBEB /* Build configuration list for PBXProject "ProjectEuler100NEW" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 286F024124279E310044DBEB;
+			productRefGroup = 286F024B24279E310044DBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286F024924279E310044DBEB /* ProjectEuler100NEW */,
+				286F025F24279E340044DBEB /* ProjectEuler100NEWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		286F024824279E310044DBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286F025A24279E340044DBEB /* LaunchScreen.storyboard in Resources */,
+				286F025724279E340044DBEB /* Preview Assets.xcassets in Resources */,
+				286F025424279E340044DBEB /* Assets.xcassets in Resources */,
+				286F02802427A4FB0044DBEB /* initialChallenges.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286F025E24279E340044DBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286F024624279E310044DBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286F027824279FE70044DBEB /* Challenge.swift in Sources */,
+				286F02852427B8F40044DBEB /* ChallengeDetail.swift in Sources */,
+				286F027E2427A2EF0044DBEB /* Util.swift in Sources */,
+				286F02892427BF220044DBEB /* ChallengeList.swift in Sources */,
+				286F02822427A9880044DBEB /* ChallengeRow.swift in Sources */,
+				286F027124279E5A0044DBEB /* AppView.swift in Sources */,
+				286F024E24279E310044DBEB /* AppDelegate.swift in Sources */,
+				286F025024279E310044DBEB /* SceneDelegate.swift in Sources */,
+				286F027524279E900044DBEB /* SettingsView.swift in Sources */,
+				286F027324279E800044DBEB /* ChallengeView.swift in Sources */,
+				286F02872427B9780044DBEB /* WebView.swift in Sources */,
+				286F025224279E310044DBEB /* ContentView.swift in Sources */,
+				286F027B2427A11D0044DBEB /* GlobalState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		286F025C24279E340044DBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286F026524279E340044DBEB /* ProjectEuler100NEWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		286F026224279E340044DBEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 286F024924279E310044DBEB /* ProjectEuler100NEW */;
+			targetProxy = 286F026124279E340044DBEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		286F025824279E340044DBEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				286F025924279E340044DBEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		286F026724279E340044DBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		286F026824279E340044DBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		286F026A24279E340044DBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectEuler100NEW/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U5Z4879T4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProjectEuler100NEW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jel.ProjectEuler100NEW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		286F026B24279E340044DBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ProjectEuler100NEW/Preview Content\"";
+				DEVELOPMENT_TEAM = 6U5Z4879T4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ProjectEuler100NEW/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jel.ProjectEuler100NEW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		286F026D24279E340044DBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U5Z4879T4;
+				INFOPLIST_FILE = ProjectEuler100NEWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jel.ProjectEuler100NEWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEuler100NEW.app/ProjectEuler100NEW";
+			};
+			name = Debug;
+		};
+		286F026E24279E340044DBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6U5Z4879T4;
+				INFOPLIST_FILE = ProjectEuler100NEWTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.jel.ProjectEuler100NEWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProjectEuler100NEW.app/ProjectEuler100NEW";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286F024524279E310044DBEB /* Build configuration list for PBXProject "ProjectEuler100NEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286F026724279E340044DBEB /* Debug */,
+				286F026824279E340044DBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286F026924279E340044DBEB /* Build configuration list for PBXNativeTarget "ProjectEuler100NEW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286F026A24279E340044DBEB /* Debug */,
+				286F026B24279E340044DBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286F026C24279E340044DBEB /* Build configuration list for PBXNativeTarget "ProjectEuler100NEWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286F026D24279E340044DBEB /* Debug */,
+				286F026E24279E340044DBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286F024224279E310044DBEB /* Project object */;
+}
