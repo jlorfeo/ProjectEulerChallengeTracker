@@ -1,0 +1,559 @@
+
+    [
+        {
+            "id": 1,
+            "name": "Multiples of 3 and 5",
+            "status": 0
+        },
+        {
+            "id": 2,
+            "name": "Even Fibonacci Numbers",
+            "status": 0
+        },
+        {
+            "id": 3,
+            "name": "Largest prime factor",
+            "status": 0
+        },
+        {
+            "id": 4,
+            "name": "Largest palindrome product",
+            "status": 0
+        },
+        {
+            "id": 5,
+            "name": "Smallest multiple",
+            "status": 0
+        },
+        {
+            "id": 6,
+            "name": "Sum square difference",
+            "status": 0
+        },
+        {
+            "id": 7,
+            "name": "10001st prime",
+            "status": 0
+        },
+        {
+            "id": 8,
+            "name": "Largest product in a series",
+            "status": 0
+        },
+        {
+            "id": 9,
+            "name": "Special Pythagorean triplet",
+            "status": 0
+        },
+        {
+            "id": 10,
+            "name": "Summation of primes",
+            "status": 0
+        },
+        {
+            "id": 11,
+            "name": "Largest Product in a grid",
+            "status": 0
+        },
+        {
+            "id": 12,
+            "name": "Highly divisible triangular number",
+            "status": 0
+        },
+        {
+            "id": 13,
+            "name": "Large sum",
+            "status": 0
+        },
+        {
+            "id": 14,
+            "name": "Longest Collatz sequence",
+            "status": 0
+        },
+        {
+            "id": 15,
+            "name": "Lattice paths",
+            "status": 0
+        },
+        {
+            "id": 16,
+            "name": "Power digit sum",
+            "status": 0
+        },
+        {
+            "id": 17,
+            "name": "Number letter counts",
+            "status": 0
+        },
+        {
+            "id": 18,
+            "name": "Maximum path sum I",
+            "status": 0
+        },
+        {
+            "id": 19,
+            "name": "Counting Sundays",
+            "status": 0
+        },
+        {
+            "id": 20,
+            "name": "Factorial digit sum",
+            "status": 0
+        },
+        {
+            "id": 21,
+            "name": "Amicable numbers",
+            "status": 0
+        },
+        {
+            "id": 22,
+            "name": "Names scores",
+            "status": 0
+        },
+        {
+            "id": 23,
+            "name": "Non-abundant sums",
+            "status": 0
+        },
+        {
+            "id": 24,
+            "name": "Lexicographic permutations",
+            "status": 0
+        },
+        {
+            "id": 25,
+            "name": "1000-digit Fibonacci number",
+            "status": 0
+        },
+        {
+            "id": 26,
+            "name": "Reciprocal cycles",
+            "status": 0
+        },
+        {
+            "id": 27,
+            "name": "Quadratic primes",
+            "status": 0
+        },
+        {
+            "id": 28,
+            "name": "Number spiral diagonals",
+            "status": 0
+        },
+        {
+            "id": 29,
+            "name": "Distinct powers",
+            "status": 0
+        },
+        {
+            "id": 30,
+            "name": "Digit fifth powers",
+            "status": 0
+        },
+        {
+            "id": 31,
+            "name": "Coin sums",
+            "status": 0
+        },
+        {
+            "id": 32,
+            "name": "Pandigital products",
+            "status": 0
+        },
+        {
+            "id": 33,
+            "name": "Digit cancelling fractions",
+            "status": 0
+        },
+        {
+            "id": 34,
+            "name": "Digit factorials",
+            "status": 0
+        },
+        {
+            "id": 35,
+            "name": "Circular primes",
+            "status": 0
+        },
+        {
+            "id": 36,
+            "name": "Double-base palindromes",
+            "status": 0
+        },
+        {
+            "id": 37,
+            "name": "Truncatable primes",
+            "status": 0
+        },
+        {
+            "id": 38,
+            "name": "Pandigital multiples",
+            "status": 0
+        },
+        {
+            "id": 39,
+            "name": "Integer right triangles",
+            "status": 0
+        },
+        {
+            "id": 40,
+            "name": "Champernowne's constant",
+            "status": 0
+        },
+        {
+            "id": 41,
+            "name": "Pandigital prime",
+            "status": 0
+        },
+        {
+            "id": 42,
+            "name": "Coded triangle numbers",
+            "status": 0
+        },
+        {
+            "id": 43,
+            "name": "Sub-string divisibility",
+            "status": 0
+        },
+        {
+            "id": 44,
+            "name": "Pentagon numbers",
+            "status": 0
+        },
+        {
+            "id": 45,
+            "name": "Triangular, pentagonal, and hexagonal",
+            "status": 0
+        },
+        {
+            "id": 46,
+            "name": "Goldbach's other conjecture",
+            "status": 0
+        },
+        {
+            "id": 47,
+            "name": "Distinct primes factors",
+            "status": 0
+        },
+        {
+            "id": 48,
+            "name": "Self powers",
+            "status": 0
+        },
+        {
+            "id": 49,
+            "name": "Prime permutations",
+            "status": 0
+        },
+        {
+            "id": 50,
+            "name": "Consecutive prime sum",
+            "status": 0
+        },
+        {
+            "id": 40,
+            "name": "Champernowne's constant",
+            "status": 0
+        },
+        {
+            "id": 41,
+            "name": "Pandigital prime",
+            "status": 0
+        },
+        {
+            "id": 42,
+            "name": "Coded triangle numbers",
+            "status": 0
+        },
+        {
+            "id": 43,
+            "name": "Sub-string divisibility",
+            "status": 0
+        },
+        {
+            "id": 44,
+            "name": "Pentagon numbers",
+            "status": 0
+        },
+        {
+            "id": 45,
+            "name": "Triangular, pentagonal, and hexagonal",
+            "status": 0
+        },
+        {
+            "id": 46,
+            "name": "Goldbach's other conjecture",
+            "status": 0
+        },
+        {
+            "id": 47,
+            "name": "Distinct primes factors",
+            "status": 0
+        },
+        {
+            "id": 48,
+            "name": "Self powers",
+            "status": 0
+        },
+        {
+            "id": 49,
+            "name": "Prime permutations",
+            "status": 0
+        },
+        {
+            "id": 50,
+            "name": "Consecutive prime sum",
+            "status": 0
+        },
+        {
+            "id": 51,
+            "name": "Prime digit replacements",
+            "status": 0
+        },
+        {
+            "id": 52,
+            "name": "Permuted multiples",
+            "status": 0
+        },
+        {
+            "id": 53,
+            "name": "Combinatoric selections",
+            "status": 0
+        },
+        {
+            "id": 54,
+            "name": "Poker hands",
+            "status": 0
+        },
+        {
+            "id": 55,
+            "name": "Lychrel numbers",
+            "status": 0
+        },
+        {
+            "id": 56,
+            "name": "Powerful digit sum",
+            "status": 0
+        },
+        {
+            "id": 57,
+            "name": "Square root convergents",
+            "status": 0
+        },
+        {
+            "id": 58,
+            "name": "Spiral primes",
+            "status": 0
+        },
+        {
+            "id": 59,
+            "name": "XOR decryption",
+            "status": 0
+        },
+        {
+            "id": 60,
+            "name": "Prime pair sets",
+            "status": 0
+        },
+        {
+            "id": 61,
+            "name": "Cyclical figurate numbers",
+            "status": 0
+        },
+        {
+            "id": 62,
+            "name": "Cubic permutations",
+            "status": 0
+        },
+        {
+            "id": 63,
+            "name": "Powerful digit counts",
+            "status": 0
+        },
+        {
+            "id": 64,
+            "name": "Odd period square roots",
+            "status": 0
+        },
+        {
+            "id": 65,
+            "name": "Convergents of e",
+            "status": 0
+        },
+        {
+            "id": 66,
+            "name": "Diophantine equation",
+            "status": 0
+        },
+        {
+            "id": 67,
+            "name": "Maximum path sum II",
+            "status": 0
+        },
+        {
+            "id": 68,
+            "name": "Magic 5-gon ring",
+            "status": 0
+        },
+        {
+            "id": 69,
+            "name": "Totient maximum",
+            "status": 0
+        },
+        {
+            "id": 70,
+            "name": "Totient permutation",
+            "status": 0
+        },
+        {
+            "id": 71,
+            "name": "Ordered fractions",
+            "status": 0
+        },
+        {
+            "id": 72,
+            "name": "Counting fractions",
+            "status": 0
+        },
+        {
+            "id": 73,
+            "name": "Counting fractions in a range",
+            "status": 0
+        },
+        {
+            "id": 74,
+            "name": "Digit factorial chains",
+            "status": 0
+        },
+        {
+            "id": 75,
+            "name": "Singular integer right triangles",
+            "status": 0
+        },
+        {
+            "id": 76,
+            "name": "Counting summations",
+            "status": 0
+        },
+        {
+            "id": 77,
+            "name": "Prime summations",
+            "status": 0
+        },
+        {
+            "id": 78,
+            "name": "Coin partitions",
+            "status": 0
+        },
+        {
+            "id": 79,
+            "name": "Passcode derivation",
+            "status": 0
+        },
+        {
+            "id": 80,
+            "name": "Square root digital expansion",
+            "status": 0
+        },
+        {
+            "id": 81,
+            "name": "Path sum: two ways",
+            "status": 0
+        },
+        {
+            "id": 82,
+            "name": "Path sum: three ways",
+            "status": 0
+        },
+        {
+            "id": 83,
+            "name": "Path sum: four ways",
+            "status": 0
+        },
+        {
+            "id": 84,
+            "name": "Path sum: four ways",
+            "status": 0
+        },
+        {
+            "id": 85,
+            "name": "Counting rectangles",
+            "status": 0
+        },
+        {
+            "id": 86,
+            "name": "Cuboid route",
+            "status": 0
+        },
+        {
+            "id": 87,
+            "name": "Prime power triples",
+            "status": 0
+        },
+        {
+            "id": 88,
+            "name": "Product-sum numbers",
+            "status": 0
+        },
+        {
+            "id": 89,
+            "name": "Roman numerals",
+            "status": 0
+        },
+        {
+            "id": 90,
+            "name": "Cube digit pairs",
+            "status": 0
+        },
+        {
+            "id": 91,
+            "name": "Right triangles with integer coordinates",
+            "status": 0
+        },
+        {
+            "id": 92,
+            "name": "Square digit chains",
+            "status": 0
+        },
+        {
+            "id": 93,
+            "name": "Arithmetic expressions",
+            "status": 0
+        },
+        {
+            "id": 94,
+            "name": "Almost equilateral triangles",
+            "status": 0
+        },
+        {
+            "id": 95,
+            "name": "Amicable chains",
+            "status": 0
+        },
+        {
+            "id": 96,
+            "name": "Su Doku",
+            "status": 0
+        },
+        {
+            "id": 97,
+            "name": "Large non-Mersenne prime",
+            "status": 0
+        },
+        {
+            "id": 98,
+            "name": "Anagramic squares",
+            "status": 0
+        },
+        {
+            "id": 99,
+            "name": "Largest exponential",
+            "status": 0
+        },
+        {
+            "id": 100,
+            "name": "Arranged probability",
+            "status": 0
+        }
+    ]
+
